@@ -14,9 +14,9 @@ def reverse_each_word(sentence1,sentence2)
   end
   newsentence1 = array2.join(" ")
 
-  array3 = sentence2.split(' ')
-  array3.collect do |n|
-    n.reverse!
-  end
-  newsentence2 = array3.join(" ")
+  # array3 = sentence2.split(' ')
+  # array3.collect do |n|
+  #  n.reverse!
+  #end
+  # newsentence2 = array3.join(" ")
 end
