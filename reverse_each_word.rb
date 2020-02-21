@@ -10,6 +10,6 @@ def reverse_each_word(sentence1)
   array1 = sentence1.split
   array2 = []
   array1.each do |n|
-    array2 << '#{n}'.reverse! 
+    array2 << '#{n}'.reverse!
   end
 end
