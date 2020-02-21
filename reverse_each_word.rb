@@ -9,7 +9,7 @@
 def reverse_each_word(string1)
   array1 = string1.split
   array1.each do |n,idx|
-    array1[#{idx}].reverse!
+    array1[(idx)].reverse!
   end
   array1
 end
