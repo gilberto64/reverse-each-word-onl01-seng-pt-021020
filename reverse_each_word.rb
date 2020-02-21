@@ -19,5 +19,5 @@ array3 = sentence2.split(' ')
 array3.collect do |n|
   n.reverse!
   end
-array1
+array3
 end
