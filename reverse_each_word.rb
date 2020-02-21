@@ -10,11 +10,9 @@ require "pry"
 
 def reverse_each_word(sentence1)
   array1 = sentence1.split(' ')
-  array2 = []
   array1.each do |n| n.reverse!
   end
   newsentence1 = array1.join(" ")
-  binding.pry
 end
 
   # array3 = sentence2.split(' ')
