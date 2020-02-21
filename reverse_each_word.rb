@@ -8,8 +8,5 @@
 
 def reverse_each_word(sentence1)
   array1 = sentence1.split
-  array1.each do 
-    array2 << array1.reverse!
-  end
-  array1
+  array1.each {array2 << array1.reverse!, array2}
 end
