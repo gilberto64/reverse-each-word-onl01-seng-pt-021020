@@ -12,5 +12,6 @@ def reverse_each_word(sentence1)
   array1.each do |n|
     array2 << n.reverse!
   end
-  sentence2 = array2.join(" ")
+  newsentence1 = array2.join(" ")
 end
+
