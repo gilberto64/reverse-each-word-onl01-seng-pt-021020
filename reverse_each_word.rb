@@ -13,11 +13,10 @@ def reverse_each_word(sentence1,sentence2)
     array2 << n.reverse!
   end
   newsentence1 = array2.join(" ")
-end
 
-array3 = sentence2.split(' ')
-array3.collect do |n|
-  n.reverse!
+  array3 = sentence2.split(' ')
+  array3.collect do |n|
+    n.reverse!
   end
-newsentence2 = array3.join(" ")
+  newsentence2 = array3.join(" ")
 end
