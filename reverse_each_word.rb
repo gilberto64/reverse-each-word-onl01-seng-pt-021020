@@ -14,5 +14,4 @@ def reverse_each_word(string1)
   array1.each do |n|
     array2(n) << array1(n).reverse!
   end
-  string2 = array2.join " "
 end
