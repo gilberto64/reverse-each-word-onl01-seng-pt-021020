@@ -1,3 +1,5 @@
+require "pry"
+
 # def reverse_each_word(sentence1)
   # sentence1.reverse!
   # array1 = sentence1.split
@@ -12,6 +14,7 @@ def reverse_each_word(sentence1)
   array1.each do |n|
     array2 << n.reverse!
   end
+  binding.pry
   newsentence1 = array2.join(" ")
 end
 
