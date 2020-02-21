@@ -6,7 +6,7 @@
 # end
 
 
-def reverse_each_word(sentence1)
+def reverse_each_word(sentence1,sentence2)
   array1 = sentence1.split(' ')
   array2 = []
   array1.each do |n|
@@ -15,11 +15,9 @@ def reverse_each_word(sentence1)
   newsentence1 = array2.join(" ")
 end
 
-# def reverse_each_word(sentence2)
-#  array1 = sentence1.split(' ')
-#  array1.collect do |n|
-#    n.reverse!
-#  end
-
-#  array1
-# end
+array3 = sentence2.split(' ')
+array3.collect do |n|
+  n.reverse!
+  end
+array1
+end
